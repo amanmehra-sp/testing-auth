@@ -9,7 +9,7 @@
     <div class="heaadr">
         <h2>welcome {{Auth::user()->name}}</h2>
        
-    </div>
+    </div class="aman">
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
             <a href="{{route('logout')}}" class="btn btn-primary">logout</a>
         </div>
